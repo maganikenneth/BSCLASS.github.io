@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" charset="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <title>Home</title>
+</head>
+<body>
+<nav class="navbar navbar-expand navbar-light bg-info ">
+    <div class="navbar-dark ">
+        <a class="navbar-brand" href="homepage.html">
+            <img src="bootstrap/images/img.png" alt="error loading image" width="50" height="50" class="d-inline-block align-text-top">
+            <b CLASS="text-danger">ST. JOSEPH TONGA PARISH</b>
+        </a>
+    </div>
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-expand-lg " id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active "href="Home.html"><b>Home</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="speeches.html"> <b>Speeches</b></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <b>Mission Activities</b>
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="baptism.html"><b>Baptism</b></a></li>
+                        <li><a class="dropdown-item" href="eucharist.html"><b>Eucharist</b></a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="confirmation.html"><b>Confirmation</b></a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link act" href="staff.html"><b>Mission Staff</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link act" href="about.html"><b>About Us</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link act" href="media"><b>Media</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link act" href="link"><b>Links</b></a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <form action="search" class="d-flex">
+                <input class="form-control me-3" type="search" aria-label="Search">
+                <button class="btn btn-outline-dark" type="submit" > Search </button>
+
+            </form>
+        </div>
+    </div>
+</nav>
+<hr>
+<h7 class="text-dark  "><label><b>Fill this form to register for Baptismal Activities</b></label></h7>
+<form class="row g-md-3 bg-primary container">
+    <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Full Names</label>
+        <input type="text" class="form-control" id="inputfullname4" placeholder="write your password">
+    </div>
+    <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail4" placeholder="write your email here">
+    </div>
+
+    <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Password</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="write your password">
+    </div>
+    <div class="mb-3">
+        <label for="formFile" class="form-label">Upload child photo</label>
+        <input class="form-control" type="file" id="formFile">
+    </div>
+    <div class="col-12">
+        <label for="inputAddress" class="form-label">child Name</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="name of the child">
+    </div>
+    <div class="col-12">
+        <label for="inputAddress2" class="form-label">Name of the parent/Guardian</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="col-md-6">
+        <label for="inputCity" class="form-label">City</label>
+        <input type="text" class="form-control" id="inputCity">
+    </div>
+    <div class="col-md-4">
+        <label for="inputState" class="form-label">Gender</label>
+        <select id="inputState" class="form-select">
+            <option selected>Male</option>
+            <option>Female</option>
+        </select>
+    </div>
+    <div class="col-md-2">
+        <label for="inputZip" class="form-label">Tel</label>
+        <input type="tel" class="form-control" id="inputZip">
+    </div>
+    <div class="col-12">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+                Remember me.
+            </label>
+        </div>
+    </div>
+    <div class="col-12">
+        <button type="submit" class="btn btn-danger">Sign Up</button>
+    </div>
+</form>
+
+</body>
+</html>
